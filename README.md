@@ -214,6 +214,47 @@ Once you design this diagram in a tool like **Draw.io**, **Lucidchart**, or **Mi
 ![Use Case Diagram for Booking System](alx-booking-uc.png)
 
 ---
+## ✅ Acceptance Criteria
 
-Let me know when you’ve created or integrated the diagram, and I’ll be glad to help refine it or build out accompanying documentation like textual scenarios or user flows!
-::contentReference[oaicite:6]{index=6}
+### What is Acceptance Criteria?
+
+**Acceptance Criteria** are a set of predefined conditions or requirements that a software product must meet to be **accepted** by stakeholders, clients, or testers. These criteria define the **boundaries of a user story or feature**, ensure shared understanding among the team, and act as the **basis for test cases**.
+
+---
+
+### 🚀 Importance of Acceptance Criteria in Requirement Analysis
+
+- 🧭 **Clarifies Expectations**  
+  Acceptance Criteria help all stakeholders understand what is being built and what “done” means.
+
+- 📋 **Enables Testability**  
+  Each criterion can be tested, ensuring that the implemented feature behaves as expected.
+
+- 🔄 **Improves Collaboration**  
+  Developers, testers, product managers, and clients stay on the same page regarding functionality and edge cases.
+
+- ❌ **Reduces Miscommunication**  
+  Prevents assumptions and scope creep by making requirements clear and measurable.
+
+---
+
+### 💡 Example: Acceptance Criteria for the Checkout Feature
+
+**Feature**: *Checkout after selecting a listing and booking dates*
+
+#### ✅ Acceptance Criteria:
+
+1. ✅ The user must be logged in to access the checkout page.
+2. ✅ The checkout page must display a summary of the selected listing, booking dates, and total price.
+3. ✅ The user must be able to enter payment details using a secure payment form.
+4. ✅ Upon successful payment, the system should:
+   - Save the booking in the database
+   - Mark the dates as unavailable for future bookings
+   - Trigger a booking confirmation email
+5. ✅ If the payment fails, the user should see an appropriate error message and be allowed to retry.
+6. ✅ The system must prevent users from booking overlapping dates.
+7. ✅ Booking confirmation page should display the booking reference number and summary.
+
+---
+
+By using clear and concise acceptance criteria like the above, teams can **develop features that match user needs**, **avoid ambiguity**, and **deliver consistent quality**.
