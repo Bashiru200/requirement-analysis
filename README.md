@@ -13,11 +13,20 @@ Here, you will find:
 
 Whether you're a software engineering student, an aspiring product manager, or a developer looking to strengthen your SDLC knowledge — this repo is a great place to start.
 
-## 📝 Requirements Analysis
+## 1. Requirements Analysis
 
 ✅ What is Requirement Analysis in Software Development?
 
-Requirement Analysis is the process of identifying, gathering, analyzing, and documenting what a software system needs to do to meet the expectations of users and stakeholders.
+Requirement Analysis is the process of **identifying, gathering, analyzing, and documenting** what a software system needs to do to meet the expectations of users and stakeholders.
 
 It’s one of the first and most critical stages in the Software Development Life Cycle (SDLC), laying the foundation for how the software will be designed, built, and tested.
 
+🔍 **Why is Requirement Analysis Important?**
+
+🚫 Prevents misunderstandings between developers and stakeholders
+
+💡 Helps define the scope and objectives of the project
+
+💰 Saves time and money by reducing the chances of rework
+
+📋 Provides clear documentation for design, testing, and deployment
